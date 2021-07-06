@@ -1,0 +1,92 @@
+header #logo {
+    display: inline;
+    position: relative;
+    font: 200px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(0, 0, 255, 0.5);
+}
+
+body {
+    height: 900px;
+}
+
+header {
+    background: url("../images/mainpic.jpg");
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 100% 100% / 0%;
+}
+
+.overlay {
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: initial(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+    font-family: 'italic', serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.maledesc {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.maledesc2 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    background-image: url("../images/mainpic2.jpg");
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.booking__button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #199;
+    background: #fff;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    margin: auto auto 50px auto;
+    display: block;
+}
+
+.booking__button:hover {
+    cursor: pointer;
+}
